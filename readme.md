@@ -2,7 +2,7 @@
 
 Search [Ant Design](https://ant.design/) documentation! 🚀
 
-<img src="https://user-images.githubusercontent.com/7090906/128593360-68229146-fb75-42f5-80c1-0d3f7ffd0bc5.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/7090906/128593686-274cd835-227c-4b5c-9675-09ef5d6d5db3.gif" width="100%">
 
 ## Install
 
