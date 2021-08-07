@@ -1,5 +1,11 @@
 # Alfred Ant Design Docs Workflow
 
+<center>
+    <a href="https://npmjs.org/package/alfred-ant-design-docs">
+        <img src="https://img.shields.io/npm/v/alfred-ant-design-docs.svg"/>
+    </a>
+</center>
+
 Search [Ant Design](https://ant.design/) documentation! 🚀
 
 <img src="https://user-images.githubusercontent.com/7090906/128593686-274cd835-227c-4b5c-9675-09ef5d6d5db3.gif" width="100%">
@@ -18,7 +24,7 @@ Downlaod workflow on this [URL](http://www.packal.org/workflow/ant-design-docs)
 ## Usage
 
 ```
-antd divider
+antd [query]
 ```
 
 ```
@@ -29,7 +35,7 @@ antd form
 antd affix
 ```
 
-Press `Enter` to open in web browser.
+Press <kbd>return</kbd> (↵): Open in web browser.
 
 ## Screenshot
 
