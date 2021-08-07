@@ -1,6 +1,6 @@
 {
   "name": "alfred-ant-design-docs",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Translate text with ease using Google Translate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

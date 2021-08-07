@@ -5,11 +5,25 @@
 	<key>bundleid</key>
 	<string>com.beygee.antd.docs</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>B87AC99C-6981-44F2-A525-EA48F97C37A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96028F52-752F-42F6-AF27-4BD218ACD0E0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>beygee</string>
 	<key>description</key>
-	<string></string>
+	<string>Search Ant Design documentation</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -42,7 +56,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Fetching the documentation ...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node dist/index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -50,9 +64,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Search for any questions about Antd</string>
 				<key>title</key>
-				<string></string>
+				<string>Search Ant Design documentation</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -65,11 +79,37 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>96028F52-752F-42F6-AF27-4BD218ACD0E0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>96028F52-752F-42F6-AF27-4BD218ACD0E0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
 		<key>B87AC99C-6981-44F2-A525-EA48F97C37A4</key>
 		<dict>
 			<key>xpos</key>
@@ -78,7 +118,9 @@
 			<integer>165</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.0.6</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/beygee</string>
 </dict>
 </plist>
