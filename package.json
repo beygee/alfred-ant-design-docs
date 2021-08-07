@@ -1,16 +1,17 @@
 {
   "name": "alfred-ant-design-docs",
-  "version": "0.0.1",
-  "description": "",
-  "type": "module",
+  "version": "0.0.12",
+  "description": "Translate text with ease using Google Translate",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts",
     "prebuild": "rm -rf ./dist",
     "build": "tsc",
     "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/index.js",
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "pub": "npm run build && npm publish"
   },
   "keywords": [],
   "author": {
@@ -18,9 +19,12 @@
     "email": "doug0476@naver.com",
     "url": "https://github.com/beygee"
   },
-  "license": "ISC",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "license": "MIT",
   "dependencies": {
-    "alfy": "^0.12.0",
+    "alfy": "^0.9.1",
     "algoliasearch": "^4.10.3"
   },
   "devDependencies": {
