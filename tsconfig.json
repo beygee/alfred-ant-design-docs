@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] },
+    "incremental": true,
+    "allowJs": true,
+    "noResolve": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es6", "DOM", "ES2018", "ES2019", "ESNext", "ESNext.AsyncIterable"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
