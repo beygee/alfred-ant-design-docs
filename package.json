@@ -1,6 +1,6 @@
 {
   "name": "alfred-ant-design-docs",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Translate text with ease using Google Translate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "alfred-notifier": "^0.2.3",
     "alfy": "^0.9.1",
     "algoliasearch": "^4.10.3"
   },
